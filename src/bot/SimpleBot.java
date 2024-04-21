@@ -10,7 +10,7 @@ public class SimpleBot {
         System.out.println("Выберете язык - для русского напишите rus!");
 
         String lang = input.next();
-        while (!lang.equalsIgnoreCase("ENG") && !lang.equalsIgnoreCase("RUS")) {
+        while (!lang.equalsIgnoreCase("ENG") || !lang.equalsIgnoreCase("RUS")) {
             lang = input.next();
         }
         // Variable
